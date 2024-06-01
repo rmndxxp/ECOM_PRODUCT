@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECOM_PRODUCT", "ECOM_PRODUCT\ECOM_PRODUCT.csproj", "{5385D227-66D2-4597-93E0-F07FFD9717C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECOM_PRODUCT", "ECOM_PRODUCT\ECOM_PRODUCT.csproj", "{5385D227-66D2-4597-93E0-F07FFD9717C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECOM_PRODUCT.nunitTests", "D:\College\Sem 2\Software Quality\ECOM_PRODUCT\ECOM_PRODUCT.nunitTests\ECOM_PRODUCT.nunitTests.csproj", "{83495BE0-8635-43AB-B2B2-C3259060A49B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5385D227-66D2-4597-93E0-F07FFD9717C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5385D227-66D2-4597-93E0-F07FFD9717C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5385D227-66D2-4597-93E0-F07FFD9717C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83495BE0-8635-43AB-B2B2-C3259060A49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83495BE0-8635-43AB-B2B2-C3259060A49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83495BE0-8635-43AB-B2B2-C3259060A49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83495BE0-8635-43AB-B2B2-C3259060A49B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
