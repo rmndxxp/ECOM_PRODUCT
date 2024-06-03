@@ -25,7 +25,7 @@ namespace ECOM_PRODUCT
         {
             if(quantity<0)
             {
-                throw new ArgumentException("Quantity cannot be Empty");
+                throw new ArgumentException("Quantity cannot be Empty or Less than 0");
             }
             else
             {
@@ -37,7 +37,7 @@ namespace ECOM_PRODUCT
         {
             if(quantity<0)
             {
-                throw new ArgumentException("Quantity cannot be Empty");
+                throw new ArgumentException("Quantity cannot be Empty or Negative");
             }
             if(quantity>Stock)
             {
