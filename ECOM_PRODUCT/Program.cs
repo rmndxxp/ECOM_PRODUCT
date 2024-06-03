@@ -1,5 +1,4 @@
-﻿using System;
-namespace ECOM_PRODUCT
+﻿namespace ECOM_PRODUCT
 {
     class Program
     {

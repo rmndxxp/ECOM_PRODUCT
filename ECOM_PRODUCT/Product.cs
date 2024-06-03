@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ECOM_PRODUCT
+﻿namespace ECOM_PRODUCT
 {
     public class Product
     {
         //Declaring Variables(Required Attributes)
-        public int ProductID {  get; set; }
+        public int ProductID { get; set; }
         public string ProductName { get; set; }
-        public decimal Price {  get; set; }
-        public int Stock {  get; set; }
-        public Product(int  productID, string productName, decimal price,int stock)
+        public decimal Price { get; set; }
+        public int Stock { get; set; }
+        public Product(int productID, string productName, decimal price, int stock)
         {
             ProductID = productID;
             ProductName = productName;
@@ -23,7 +17,7 @@ namespace ECOM_PRODUCT
         //method to increase stock
         public void IncreaseStock(int quantity)
         {
-            if(quantity<0)
+            if (quantity < 0)
             {
                 throw new ArgumentException("Quantity cannot be Empty or Less than 0");
             }
@@ -35,17 +29,17 @@ namespace ECOM_PRODUCT
         //method to decrease stock and verify quantity
         public void DecreaseStock(int quantity)
         {
-            if(quantity<0)
+            if (quantity < 0)
             {
                 throw new ArgumentException("Quantity cannot be Empty or Negative");
             }
-            if(quantity>Stock)
+            if (quantity > Stock)
             {
                 throw new InvalidOperationException("Not enough stock available");
             }
             else
             {
-                Stock -= quantity; 
+                Stock -= quantity;
             }
         }
 
